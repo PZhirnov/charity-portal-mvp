@@ -1,0 +1,67 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Виртуальные окружения =====
+venv/
+.venv/
+env/
+ENV/
+.venv*/
+virtualenv/
+
+# ===== Дистрибутивы / сборка =====
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.egg
+MANIFEST
+
+# ===== Переменные окружения и секреты =====
+.env
+.env.*
+!.env.example
+*.env
+
+# ===== Кеши инструментов =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# ===== Jupyter (если вдруг) =====
+.ipynb_checkpoints/
+
+# ===== IDE / редакторы =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Логи =====
+*.log
+logs/
+
+# ===== Базы данных (SQLite для dev) =====
+*.sqlite
+*.sqlite3
+*.db
+
+# ===== Загруженные файлы (если есть uploads) =====
+uploads/
+media/
